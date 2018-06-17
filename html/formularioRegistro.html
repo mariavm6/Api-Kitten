@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PhotoCats</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/960.css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/> 
+        <link href="../css/styleformulario.css" rel="stylesheet" type="text/css"/> 
+        <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico">
+    </head>
+
+    <body>
+        <div class="container_12">
+            <div class="grid_12">
+                <header class="header">
+                    <div class="grid_2 alpha">
+                        <div class="logo"><a href="../index.html"><img alt="logo.png" src="../img/logo3.png"></a></div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class="buscar">
+                            <input type="search" placeholder="Search" name="search" size="15">
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <nav class="nav">
+                        </nav>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="log">
+                            <a href="login.html"><img alt="login.png" src="../img/login.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="carrito">
+                            <a href="error/error404.html">
+                                <img alt="cart.png" src="../img/carrito.png"></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="clear"></div>
+            <!----------- CUERPO DE LA PAGINA ------------>
+            <div class="grid_12">
+                <section class="section">
+                    <div class="grid_12">
+                        <div class="main">
+                            <div class="one">
+                                <div class="register">
+                                    <h3>Registro</h3>
+
+                                    <form id="formulario" class="formulario" method="post" action="login.html" onsubmit="return false;">
+
+                                        <div>
+                                            <label>Nombre (*)</label>
+                                            <input type="text" id="nombre"  placeholder="Nombre"/>
+
+                                            <div id="txtError"></div>
+                                        </div>
+                                        <div>
+                                            <label>Apellidos (*)</label>
+                                            <input type="text" id="apellidos" placeholder="Apellidos"/>
+                                        </div>
+                                        <div>
+                                            <label>Correo Electrónico (*)</label>
+                                            <input type="text" id="email" placeholder="example@ejemplo.com"/>
+                                        </div>
+                                        <div>
+                                            <label>Contraseña (*)</label>
+                                            <input type="password" id="password" placeholder="Contraseña"/>
+
+                                        </div>
+                                        
+                                        <div>
+                                            <label>Confirmar contraseña (*)</label>
+                                            <input type="password" id="passwordAgain" placeholder="Contraseña"/>
+
+                                        </div>
+                        
+                                        <div>
+                                            <label>Fecha de Nacimiento</label>
+                                            <input type="date" id="inputFecha">
+                                        </div>
+                                        
+                                        <div>
+                                            <label></label>
+                                            <input value="Regístrate" type="submit" id="registro" class="button">
+                                        </div>
+                                    </form>
+                                    <div class="sep">
+                                        <span class="or">OR</span>
+                                    </div>
+                                    <div class="connect">
+                                        <div class="social-buttons facebook">
+                                            <a href="#">
+                                                <span>Facebook</span>
+                                            </a>
+                                        </div>
+                                        <div class="social-buttons twitter">
+                                            <a href="#">
+                                                <span>Twitter</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+
+                    <!----------- FOOTER ------------>
+                    <div class="grid_12 alpha">
+                        <footer class="footer">
+                            <div class="grid_6 prefix_3 suffix_3">
+                                <div class="links">
+                                    <div><a href="#">NeedArt! </a></div>
+                                    <div><a href="#"> Contacto </a></div>
+                                    <div><a href="#"> Aviso Legal </a></div>
+                                    <div><a href="#"> Privacidad </a></div>
+                                    <div><a href="#"> Condiciones </a></div>
+                                    <div><a href="#"> Derechos de Uso</a></div>
+                                </div>
+                                <div class="RRSS">
+                                    <div><a href="#"><img alt="if_pinterest.png" src="../img/if_pinterest_246004.png"></a></div>
+                                    <div><a href="#"><img alt="if_paypal.png" src="../img/if_paypal_456097.png"></a></div>
+                                    <div><a href="#"><img alt="if_Popular_Social_Media.png" src="../img/if_Popular_Social_Media-08_2329265.png"></a></div>
+                                    <div><a href="#"><img alt="f_twitter.png" src="../img/if_twitter_246011.png"></a></div>
+                                    <div><a href="#"><img alt="if_Facebook.png" src="../img/if_Facebook-2_174200.png"></a></div>
+                                    <div><a href="#"><img alt="if_map-marker.png" src="../img/if_map-marker_285659.png"></a></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </footer>
+                    </div>
+                </section>
+            </div>
+            <div class="clear"></div>  
+        </div>
+        <!----------- LIBRERIAS Y JS ------------>
+<!--        <script src="../js/validaciones.js"></script>-->
+        <script src="../js/registro.js"></script>
+    </body>
+</html>

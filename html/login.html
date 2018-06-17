@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PhotoCats</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/960.css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/> 
+        <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico">
+    </head>
+
+    <body>
+        <div class="container_12">
+            <div class="grid_12">
+                <header class="header">
+                    <div class="grid_2">
+                        <div class="logo"><a href="../index.html"><img alt="logo.png" src="../img/logo3.png"></a></div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class="buscar">
+                            <input type="search" placeholder="Search" name="search" size="15">
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <nav class="nav">
+                            <a id="logout" style="display: none">LOGOUT</a>
+                        </nav>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="log">
+                            <a href="#"><img alt="login.png" src="../img/login.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="carrito">
+                            <a href="error/error404.html">
+                                <img alt="cart.png" src="../img/carrito.png"></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="clear"></div>
+            <!----------- CUERPO DE LA PAGINA ------------>
+            <div class="grid_12">
+                <section class="section">
+                    <div class="grid_12">
+                        <div class="login">
+                            <!--Intenta que el formulario no tenga la misma clase que el div-->
+                            <form action="../index.html" method="post" class="login">
+
+                                <div class="logoUsu">
+                                    <img alt="user.png" src="../img/user.png">
+                                    <input type="text" placeholder="Username" required class="usuario" id="input-name">
+                                </div>
+
+                                <div class="logoLock">
+                                    <img alt="padlock.png" src="../img/padlock.png">
+                                    <input type="password"  placeholder="Password" required class="contrasenia" id="input-pass">
+                                </div> 
+
+                                <div id="boton-login">Login</div>
+                             <div id="logout" style="display: none;"><!--   <button class="botonLogout" onclick="logoutSesion()">Logout</button>--></div>
+                            </form>
+                            <div class="signup">
+                                <p>¿No formas parte de nuestra comunidad? <a href="formularioRegistro.html">Regístrate rellenando el siguiente formulario.</a></p></div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+
+                    <!----------- FOOTER ------------>
+                    <div class="grid_12 alpha">
+                        <footer class="footer">
+                            <div class="grid_6 prefix_3 suffix_3">
+                                <div class="links">
+                                    <div><a href="#">PhotoCats </a></div>
+                                    <div><a href="#"> Contacto </a></div>
+                                    <div><a href="#"> Aviso Legal </a></div>
+                                    <div><a href="#"> Privacidad </a></div>
+                                    <div><a href="#"> Condiciones </a></div>
+                                    <div><a href="#"> Derechos de Uso</a></div>
+                                </div>
+                                <div class="RRSS">
+                                    <div><a href="#"><img alt="if_pinterest.png" src="../img/if_pinterest_246004.png"></a></div>
+                                    <div><a href="#"><img alt="if_paypal.png" src="../img/if_paypal_456097.png"></a></div>
+                                    <div><a href="#"><img alt="if_Popular_Social_Media.png" src="../img/if_Popular_Social_Media-08_2329265.png"></a></div>
+                                    <div><a href="#"><img alt="f_twitter.png" src="../img/if_twitter_246011.png"></a></div>
+                                    <div><a href="#"><img alt="if_Facebook.png" src="../img/if_Facebook-2_174200.png"></a></div>
+                                    <div><a href="#"><img alt="if_map-marker.png" src="../img/if_map-marker_285659.png"></a></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </footer>
+                    </div>
+                </section>
+            </div>
+            <div class="clear"></div> 
+        </div>
+        <!----------- LIBRERIAS Y JS ------------>
+        <script src="../js/login.js"></script>
+    </body>
+</html>
